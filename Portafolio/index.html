@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/principal.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!-- Sección de inicio -->
+    <section id="inicio">
+
+        <div class="contenedor">
+            <header>
+                <div class="contenido-header">
+                    <div class="logo">
+                        <i class="fa-solid fa-microchip fa-2x1" style="color: #ffffff;size: 50px;"></i>
+                    </div>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <nav id="icono-nav" onclick="responsiveMenu()">
+                        <!-- iconos menu responsive -->
+                        <i class="fa-solid fa-bars"></i>
+                        <!-- icono de contacto -->
+
+                    </nav>
+                    <div class="redes">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">BIENVENIDOS</p>
+                <h2>Soy <span>Selvin De Paz</span> Mécanico Industrial, Profesor de Informática y Técnico IT</h2>
+                <p class="descripcion">Soy una persona respetuosa, altamente motivado a expandir mis conocimientos y
+                    habilidades, con una gran capacidad intelectual y de aprendizaje. Dispuesto alcanzar objetivos.</p>
+                <a href="#portafolio" class="curriculum">IR A PORTAFOLIO</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto_selvin.jpg" alt="Foto Selvin">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">SOBRE MI</p>
+            <h2>Hola, soy <span>Selvin De Paz</span></h2>
+            <h3>Mécanico Industrial, Profesor de Informática y Soporte TI</h3>
+            <div class="contenido">
+                <p>Durante estos años he aprendido a desarrollarme en el aréa Industrial dando mantenimiento preventivo
+                    y
+                    correctivo a máquinas industriales</p>
+                <p>En el aréa de la Docencia he impartido cursos de informática, Productividad y Desarrollo y Educación
+                    Artística</p>
+                <p>Cómo Soporte TI me he desarrollando dando servicio técnico a usuarios finales solucionando problemas
+                    de
+                    ofimatica, hardware y software </p>
+                <a href="#" class="curriculum">DESCARGAR CV</a>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section id="habilidades">
+        <div class="contenedor-habilidades" id="skills">
+            <h3>HABILIDADES</h3>
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Html y css
+
+                    </p>
+                    <span class="porcentaje">80%</span>
+
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso1"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Php
+
+                    </p>
+                    <span class="porcentaje">60%</span>
+                </div>
+                <div class="barra">
+                    <div id="php" class="barra-progreso2"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Photoshop
+
+                    </p>
+                    <span class="porcentaje">45%</span>
+                </div>
+                <div class="barra">
+                    <div id="photo" class="barra-progreso3"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>After Effects
+
+                    </p>
+                    <span class="porcentaje">45%</span>
+                </div>
+                <div class="barra">
+                    <div id="after" class="barra-progreso4"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Premiere
+
+                    </p>
+                    <span class="porcentaje">50%</span>
+                </div>
+                <div class="barra">
+                    <div id="premi" class="barra-progreso5"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>VB.NET
+
+                    </p>
+                    <span class="porcentaje">60%</span>
+                </div>
+                <div class="barra">
+                    <div id="vb" class="barra-progreso6"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Arduino
+
+                    </p>
+                    <span class="porcentaje">70%</span>
+                </div>
+                <div class="barra">
+                    <div id="arduino" class="barra-progreso7"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Electrónica
+
+                    </p>
+                    <span class="porcentaje">40%</span>
+                </div>
+                <div class="barra">
+                    <div id="electro" class="barra-progreso8"></div>
+                </div>
+
+            </div>
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Soldadura Eléctrica
+
+                    </p>
+                    <span class="porcentaje">70%</span>
+                </div>
+                <div class="barra">
+                    <div id="solda" class="barra-progreso9"></div>
+                </div>
+
+            </div>
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>Offimática
+
+                    </p>
+                    <span class="porcentaje">90%</span>
+                </div>
+                <div class="barra">
+                    <div id="offi" class="barra-progreso10"></div>
+                </div>
+
+            </div>
+
+            <div class="habilidad">
+                <div class="info">
+                    <p>
+                        <spa class="lista"></spa>software y hardware
+
+                    </p>
+                    <span class="porcentaje">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="soft" class="barra-progreso11"></div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="proyecto">
+
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/video.jpg" alt="EdicionVideo">
+                <div class="info">
+                    <h4>Edición de Video</h4>
+                    <p>Se han elaborado trabajos utilizando diferentes editores de video como Camtasia, Adobe Premiere,
+                        After Effets, realizando trabajos como tutoriales, eventos especiales, intros. </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/imagen.jpg" alt="EdicionImagen">
+                <div class="info">
+                    <h4>Edición de Imagen</h4>
+                    <p>Se ha trabajado en la elaboración de diferentes proyectos como logos, trípticos, invitaciones
+                        utilizando programas como Gimp, photoshop, Illustrator</p>
+                </div>
+            </div>
+
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/progra.jpg" alt="Programacion">
+                <div class="info">
+                    <h4>Programación</h4>
+                    <p>Se ha trabajado en diferentes lenguajes de programación como VB.net, java, HTML, css.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contáctanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
